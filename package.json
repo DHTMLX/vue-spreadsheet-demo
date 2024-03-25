@@ -1,13 +1,13 @@
 {
-  "name": "templateforv2-vue3",
-  "version": "0.0.0",
+  "name": "vue-spreadsheet-demo",
+  "version": "1.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview --port 4173"
   },
   "dependencies": {
-    "@dhx/trial-spreadsheet": "^5.0.8",
+    "@dhx/trial-spreadsheet": "^5.1.5",
     "vue": "^3.2.37"
   },
   "devDependencies": {
