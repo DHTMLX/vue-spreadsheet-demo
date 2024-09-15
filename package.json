@@ -7,7 +7,7 @@
     "preview": "vite preview --port 4173"
   },
   "dependencies": {
-    "@dhx/trial-spreadsheet": "^5.1.5",
+    "@dhx/trial-spreadsheet": "^5.1.6",
     "vue": "^3.2.37"
   },
   "devDependencies": {

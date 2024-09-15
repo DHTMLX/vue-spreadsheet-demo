@@ -6,7 +6,7 @@ export default {
   components: { Spreadsheet },
   data() {
     return { data: getData() };
-  },
+  }
 };
 </script>
 

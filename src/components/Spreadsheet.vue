@@ -4,23 +4,17 @@ import "@dhx/trial-spreadsheet/codebase/spreadsheet.min.css";
 
 export default {
   props: ["data"],
-  data() {
-    return {
-      spreadsheet: null,
-    };
-  },
 
   mounted() {
-    this.spreadsheet = new Spreadsheet(this.$refs.cont, {});
+    this.spreadsheet = new Spreadsheet(this.$refs.container, {});
     this.spreadsheet.parse(this.data);
   },
   unmounted() {
     this.spreadsheet.destructor();
-    this.$refs.cont.innerHTML = "";
-  },
+  }
 };
 </script>
 
 <template>
-  <div ref="cont" style="width: 100%; height: 100%"></div>
+  <div ref="container" class="widget"></div>
 </template>
